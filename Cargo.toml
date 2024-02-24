@@ -5,4 +5,8 @@ edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+[lib]
+name = "bowling_score"
+path = "src/BowlingScore.rs"
 [dependencies]
+speculoos = "0.11.0"
